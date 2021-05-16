@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #5d9c6e;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  font-family: "Homemade Apple", cursive;
+  margin-top: 70px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+ul {
+  list-style: none;
+}
+
+.navbar-brand {
+  font-family: "Homemade Apple", cursive !important;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  color: #5d9c6e;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.secondary-link:hover {
+  color: #5d9c6e;
+}
+
+.weather-img {
+  max-height: 600px;
+  max-width: auto;
+  border: 1px solid #fff;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.photo-img {
+  border: 1px solid #fff;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  font-weight: bold;
+  color: #5d9c6e;
+  transition: ease-in-out 100ms;
+}
+
+.nav-link:hover {
+  color: #5d9c6e !important;
+}
+
+.skillset {
+  border: 1px solid #fff;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-top: 20px;
+  max-width: 500px;
+  max-height: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+.rose {
+  max-width: 300;
+  max-height: auto;
+}
+.about-me {
+  border: 1px solid #fff;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  .skillset {
+    text-align: left;
+  }
+}
