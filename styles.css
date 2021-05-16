@@ -81,7 +81,7 @@ ul {
 }
 
 .weather-img {
-  max-height: 600px;
+  max-height: 500px;
   max-width: auto;
   border: 1px solid #fff;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
